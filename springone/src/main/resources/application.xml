@@ -6,4 +6,5 @@
 
     <bean id="demo1" class="com.test1.IntrduceDemo"/>
 
+    <bean id="poolConfig" class="redis"></bean>
 </beans>

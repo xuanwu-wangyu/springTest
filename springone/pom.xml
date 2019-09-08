@@ -13,6 +13,29 @@
         <org.springframework.version>4.2.0.RELEASE</org.springframework.version>
     </properties>
     <dependencies>
+
+        <!--音频信息 -->
+        <dependency>
+            <groupId>org</groupId>
+            <artifactId>jaudiotagger</artifactId>
+            <version>2.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.googlecode.soundlibs</groupId>
+            <artifactId>jlayer</artifactId>
+            <version>1.0.1-1</version>
+        </dependency>
+
+
+
+
+
+        <!--redis-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
+        </dependency>
+
         <!-- spring start -->
         <dependency>
             <groupId>org.springframework</groupId>
